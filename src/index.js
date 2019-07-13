@@ -14,6 +14,7 @@ export const mockReq = (options = {}) => {
     header: sinon.stub().returns(ret),
     is: sinon.stub().returns(ret),
     params: {},
+    pipe: sinon.stub().returns(ret),
     query: {},
     session: {},
   }, options)
